@@ -1,0 +1,24 @@
+{
+  "name": "node-docs-2",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Max Lund <mlund@four51.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "highlightjs": "^9.6.0",
+    "jquery": "^3.1.0",
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.6.3"
+  }
+}

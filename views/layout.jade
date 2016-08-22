@@ -1,0 +1,29 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/highlightjs/styles/rainbow.css')
+    script(type='text/javascript', src='/jquery/dist/jquery.js')
+
+  body
+    main#MianContent
+      div.ordercloud-docs
+        div#left-nav
+          aside.docs-nav-wrapper
+            nav.docs-nav
+              ul
+                li.section.docUnderline API REFERENCE
+                div
+                  ul
+                li.section.docUnderline GUIDES
+                div
+                  ul
+                li.section.docUnderline FRAMEWORKS & LIBRARIES
+                div
+                  ul
+                li.section.docUnderline INTEGRATION SERVICES
+                div
+                  ul
+        div#docs-content.clearfix
+          block content

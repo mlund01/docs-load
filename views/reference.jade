@@ -1,0 +1,14 @@
+extends layout
+
+block content
+    header.docs-header
+        span.docs-header-breadcrumb DOCUMENTATION -
+            h1 API REFERENCE
+    article.docs-wrapper.clearfix
+        div.content-docs
+            pre
+                code.hljs!= docs
+
+
+
+
